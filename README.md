@@ -9,7 +9,7 @@
 <li> numpy</li>
 <li> PyPDF2</li>
 </ol>
-### Steps to Execute the program
+#### Steps to Execute the program
 <ol>
 <li> Run execute.py</li>
 <li> It will install required libraries.</li> 
