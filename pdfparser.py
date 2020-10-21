@@ -9,7 +9,7 @@ def get_string_from_pdf(pdf_path):
         pdfReader.decrypt('')
     end_page = pdfReader.getNumPages()
     # print (pdfReader.numPages)
-    for pageNum in range(0, end_page):
+    for pageNum in range(0, 1): #end_page
         page = pdfReader.getPage(pageNum)
         if page.extractText() is not None:
             pageContents = page.extractText()
